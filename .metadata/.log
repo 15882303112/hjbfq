@@ -1,0 +1,198 @@
+!SESSION 2015-12-07 10:30:53.051 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:31:31.384
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:33:31.421
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-07 10:34:30.129
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:36:48.621
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:40:10.496
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:41:26.800
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:42:45.762
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:43:49.169
+!MESSAGE Failed to load properties file for project 'main'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:46:42.759
+!MESSAGE Failed to load properties file for project 'LauncherActivity'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 10:46:49.963
+!MESSAGE Failed to load properties file for project 'LauncherActivity'
+
+!ENTRY org.eclipse.ui.workbench 4 2 2015-12-07 11:08:19.965
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.resource.JFaceResources.getResources(JFaceResources.java:207)
+	at org.eclipse.jface.resource.ImageRegistry.<init>(ImageRegistry.java:152)
+	at org.eclipse.jface.resource.ImageRegistry.<init>(ImageRegistry.java:124)
+	at org.eclipse.ui.internal.WorkbenchImages.initializeImageRegistry(WorkbenchImages.java:641)
+	at org.eclipse.ui.internal.WorkbenchImages.getDescriptors(WorkbenchImages.java:530)
+	at org.eclipse.ui.internal.WorkbenchImages.getImageDescriptor(WorkbenchImages.java:566)
+	at org.eclipse.ui.internal.registry.EditorRegistry.addSystemEditors(EditorRegistry.java:550)
+	at org.eclipse.ui.internal.registry.EditorRegistry.initialIdToEditorMap(EditorRegistry.java:514)
+	at org.eclipse.ui.internal.registry.EditorRegistry.<init>(EditorRegistry.java:135)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getEditorRegistry(WorkbenchPlugin.java:455)
+	at org.eclipse.ui.internal.Workbench.getEditorRegistry(Workbench.java:1345)
+	at org.eclipse.ui.internal.ide.ContentTypeDecorator.decorate(ContentTypeDecorator.java:57)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2015-12-07 11:08:19.998
+!MESSAGE Exception in Decorator. The 'File Icons Based On Content Analysis' decorator will be disabled.
+
+!ENTRY org.eclipse.ui 4 4 2015-12-07 11:08:20.006
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.resource.JFaceResources.getResources(JFaceResources.java:207)
+	at org.eclipse.jface.resource.ImageRegistry.<init>(ImageRegistry.java:152)
+	at org.eclipse.jface.resource.ImageRegistry.<init>(ImageRegistry.java:124)
+	at org.eclipse.ui.internal.WorkbenchImages.initializeImageRegistry(WorkbenchImages.java:641)
+	at org.eclipse.ui.internal.WorkbenchImages.getDescriptors(WorkbenchImages.java:530)
+	at org.eclipse.ui.internal.WorkbenchImages.getImageDescriptor(WorkbenchImages.java:566)
+	at org.eclipse.ui.internal.registry.EditorRegistry.addSystemEditors(EditorRegistry.java:550)
+	at org.eclipse.ui.internal.registry.EditorRegistry.initialIdToEditorMap(EditorRegistry.java:514)
+	at org.eclipse.ui.internal.registry.EditorRegistry.<init>(EditorRegistry.java:135)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getEditorRegistry(WorkbenchPlugin.java:455)
+	at org.eclipse.ui.internal.Workbench.getEditorRegistry(Workbench.java:1345)
+	at org.eclipse.ui.internal.ide.ContentTypeDecorator.decorate(ContentTypeDecorator.java:57)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-12-07 11:09:03.182 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-07 11:09:08.834
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-07 11:09:51.052
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-12-07 11:10:08.475
+!MESSAGE Invalid ZIP archive: E:\IdeaProjects\Android_bofangqi\dragsortlistviewlibrary\bin\dragsortlistviewlibrary.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-12-07 11:10:08.556
+!MESSAGE Invalid ZIP archive: E:\IdeaProjects\Android_bofangqi\dragsortlistviewlibrary\bin\dragsortlistviewlibrary.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-12-07 11:10:08.889
+!MESSAGE Invalid ZIP archive: E:\IdeaProjects\Android_bofangqi\dragsortlistviewlibrary\bin\dragsortlistviewlibrary.jar
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 11:32:22.797
+!MESSAGE Failed to load properties file for project 'LauncherActivity'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 11:32:45.543
+!MESSAGE Failed to load properties file for project 'LauncherActivity'
+!SESSION 2015-12-07 14:44:00.800 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-07 14:45:07.475
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!SESSION 2015-12-07 15:43:32.199 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-07 15:43:47.624
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-12-07 15:46:51.283
+!MESSAGE Invalid ZIP archive: E:\IdeaProjects\Android_bofangqi\picasso\bin\picasso.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-07 15:47:16.593
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 16:04:35.301
+!MESSAGE activity_browser_sub_grid.xml: Paint.setShadowLayer is not supported.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 16:04:35.414
+!MESSAGE activity_browser_sub_grid.xml: Paint.setShadowLayer is not supported.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 16:05:05.140
+!MESSAGE activity_browser_sub_list.xml: Paint.setShadowLayer is not supported.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 16:05:05.154
+!MESSAGE activity_browser_sub_list.xml: Paint.setShadowLayer is not supported.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 16:10:51.643
+!MESSAGE activity_welcome.xml: Failed to find style 'vpiLinePageIndicatorStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-12-07 16:40:10.484
+!MESSAGE activity_welcome.xml: Failed to find style 'vpiLinePageIndicatorStyle' in current theme
+!SESSION 2015-12-08 09:12:15.040 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-08 09:12:23.058
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-12-08 09:14:21.470
+!MESSAGE Invalid ZIP archive: E:\IdeaProjects\Android_bofangqi\picasso\bin\picasso.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-08 09:14:46.940
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!SESSION 2015-12-10 11:26:51.004 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data E:\IdeaProjects\Android_bofangqi -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-10 11:27:27.454
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!SESSION 2015-12-10 13:52:57.165 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data E:\IdeaProjects\Android_bofangqi -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-12-10 13:53:27.137
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
